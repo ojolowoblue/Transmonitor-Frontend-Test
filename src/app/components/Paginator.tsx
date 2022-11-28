@@ -34,9 +34,10 @@ export const ButtonGroup = styled.div`
     height: 29px;
     border: 1px solid #ced0da;
     border-radius: 2px;
-    padding: 6px;
+    padding: 6px 8px;
     min-width: 31px;
     font-size: 13px;
+    background: transparent;
   }
 
   button.active {
