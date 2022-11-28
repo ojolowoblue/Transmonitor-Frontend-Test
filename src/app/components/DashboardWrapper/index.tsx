@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import { links } from "./links";
-import DashboardHeader from "../Dashboardheader";
+import DashboardHeader from "../DashboardHeader";
 import {
   ChildrenWrapper,
   DashboardWrapperContainer,

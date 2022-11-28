@@ -8,7 +8,7 @@ export const DashboardWrapperContainer = styled.div`
 
 export const ChildrenWrapper = styled.div`
   padding: 33px 80px 33px 30px;
-  background: #e5e5e5;
+  background: #f7f8fa;
 `;
 
 export const Navigation = styled.nav`
