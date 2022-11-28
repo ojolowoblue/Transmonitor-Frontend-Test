@@ -4,9 +4,21 @@ export const DashboardWrapperContainer = styled.div`
   width: 100%;
   display: grid;
   grid-template-columns: minmax(240px, 260px) 1fr;
+
+  .navigation {
+    position: fixed;
+    height: 100vh;
+    top: 60px;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      width: 2px;
+    }
+  }
 `;
 
 export const ChildrenWrapper = styled.div`
+  margin-top: 60px;
   padding: 33px 80px 33px 30px;
   background: #f7f8fa;
 `;

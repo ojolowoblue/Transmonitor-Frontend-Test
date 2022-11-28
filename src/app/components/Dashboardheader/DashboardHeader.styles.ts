@@ -1,11 +1,15 @@
 import styled from "@emotion/styled";
 
 export const DashboardHeaderWrapper = styled.header`
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
   display: grid;
   grid-template-columns: minmax(240px, 260px) 1fr;
   background: #ffffff;
   box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07);
   padding: 15px 80px 15px 42px;
+  min-height: 60px;
 
   .logo {
     display: flex;

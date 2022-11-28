@@ -53,7 +53,8 @@ export default function DashboardWrapper(props: DashboardWrapperprops) {
       <DashboardHeader />
 
       <DashboardWrapperContainer>
-        <div>
+        <div></div>
+        <div className="navigation">
           <PrimaryButtonWrapper>
             <PrimaryButton>Generate Invoice</PrimaryButton>
           </PrimaryButtonWrapper>
