@@ -100,6 +100,7 @@ export default function Chart() {
 export const ChartWrapper = styled.div`
   width: 100%;
   padding-top: 26px;
+  background: #fff;
 `;
 
 export const ChartHeader = styled.div`

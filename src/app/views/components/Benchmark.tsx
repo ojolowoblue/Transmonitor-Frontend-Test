@@ -15,6 +15,7 @@ export default function Benchmark() {
 export const BenchMarkWrapper = styled.div`
   margin-top: 27px;
   display: grid;
+  gap: 4px;
   grid-template-columns: 689px 1fr;
-  background: #fff;
+  background: #f7f8fa;
 `;
