@@ -9,16 +9,16 @@ const stats: { name: string; amount: string }[] = [
     amount: "2,342",
   },
   {
-    name: "Daily Transaction Volume",
-    amount: "2,342",
+    name: "Daily Transaction Value",
+    amount: "₦4,000,000",
   },
   {
-    name: "Daily Transaction Volume",
-    amount: "2,342",
+    name: "Total Transaction Volume",
+    amount: "452,000",
   },
   {
-    name: "Daily Transaction Volume",
-    amount: "2,342",
+    name: "Total Transaction Value",
+    amount: "₦4,000,000",
   },
 ];
 
