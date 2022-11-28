@@ -54,7 +54,7 @@ export const StatWrapper = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
-  gap: 5px;
+  justify-content: space-between;
   padding: 16px 18px;
   background: #ffffff;
   border: 1px solid #eef8fd;
