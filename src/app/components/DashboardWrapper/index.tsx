@@ -29,12 +29,16 @@ const NavigationItem = ({
 
 const navigationMarkup = () => (
   <Navigation>
-    {links.map((link) => (
-      <div className="navSection">
+    {links.map((link, idx) => (
+      <div key={idx.toString()} className="navSection">
         {link.section && <NavigationTitle>{link.section}</NavigationTitle>}
 
-        {link.navigationItems.map((item) => (
-          <NavigationItem icon={item.icon} label={item.label} />
+        {link.navigationItems.map((item, id) => (
+          <NavigationItem
+            key={id.toString()}
+            icon={item.icon}
+            label={item.label}
+          />
         ))}
       </div>
     ))}
