@@ -1,10 +1,8 @@
-import styled from "@emotion/styled";
-
 import { ReactComponent as Logo } from "app/assets/icons/logo.svg";
 import { ReactComponent as SearchIcon } from "app/assets/icons/search.svg";
 import { ReactComponent as NotificationIcon } from "app/assets/icons/notification.svg";
-
 import Ojo from "app/assets/images/ojo.png";
+
 import {
   DashboardHeaderWrapper,
   HeaderNav,
